@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url(./assets/Dog-Paw-wiht-heart.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: RGB(92, 181, 92);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+   border: 5% solid whitesmoke;
+}
+.logo img {
+    width: 50px; /* Adjust as needed */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 8px 16px;
+    border-radius: 5px; /* Add border radius */
+}
+
+.nav-links li a:hover {
+    color: lightgreen;
+    background-color: rgba(255, 255, 255, 0.2); /* Add background color on hover */
+}
+/* Reset some default styles */
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 28px;
+  }
+  
+  /* Main Content */
+  .main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Contact Section */
+  .contact-section,
+  .opinion-section {
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-list {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+  
+  .contact-item {
+    margin-bottom: 10px;
+  }
+  
+  .social-link {
+    display: inline-block;
+    margin-right: 15px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-link:hover {
+    color: #666;
+  }
+  
+  /* Opinion Section */
+  .opinion-form {
+    padding: 20px;
+    background-color:RGB(92, 181, 92);
+    border-radius: 5px;
+  }
+  
+  .form-label,
+  .form-textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .form-textarea {
+    resize: vertical;
+    padding: 10px;
+  }
+  
+  .form-button {
+    background-color: #333;
+    color: RGB(92, 181, 92);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .form-button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color:RGB(92, 181, 92);
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+  }
+  

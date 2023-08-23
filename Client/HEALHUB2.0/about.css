@@ -1,0 +1,81 @@
+body{
+    background: url(./assets/pngtree-dog-and-cat-standing-beside-each-other-image_2525534.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .list-item{
+    color:black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 50px;
+
+
+}
+.list-item:hover{
+    color: rgb(130, 241, 130);
+    text-decoration: none;
+border: 0.3px solid whitesmoke;
+} */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: RGB(92, 181, 92);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+   border: 5% solid whitesmoke;
+}
+
+.logo img {
+    width: 50px; /* Adjust as needed */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 8px 16px;
+    border-radius: 5px; /* Add border radius */
+}
+
+.nav-links li a:hover {
+    color: lightgreen;
+    background-color: rgba(255, 255, 255, 0.2); /* Add background color on hover */
+}
+.content {
+    padding: 20px;
+}
+
+.about-section {
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+     backdrop-filter:blur(10px);
+-webkit-backdrop-filter: blur(10px);
+width: 900px;
+    margin-left: 15%;
+    height: 910px;
+}
+
+.about-section h1 {
+    color: #148f77; /* Dark green header */
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}

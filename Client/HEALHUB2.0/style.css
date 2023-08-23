@@ -1,0 +1,46 @@
+body{
+    background: url(./assets/photo-1444212477490-ca407925329e.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ref{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+     backdrop-filter:blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border-radius: 20px;
+width:800px;
+    height: 500px;
+    margin-left: 20%;
+    height: 428px;
+}
+#changes{
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    
+}
+.boxx{
+    padding: 5%;
+    width: 267px;
+    border-radius: 30px;
+    border: 2px solid green
+}
+#box1{
+background-color: green;
+}
+.list-item{
+    color:black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+
+
+}
+.list-item:hover{
+    color: rgb(130, 241, 130);
+    text-decoration: none;
+border: 1px solid whitesmoke;
+}
